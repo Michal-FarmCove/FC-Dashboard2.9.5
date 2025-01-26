@@ -100,7 +100,7 @@ function highlightActiveButton() {
             (["crew-management-review.html", "john-invoices.html", "invoice-page.html", "crew-management-review-starter.html", "crew-management-review-proof.html", ...crewManagementPages].includes(currentPage) && href === "crew-management.html") ||
             (["logging-review.html", "logging-details-driver.html", "logging-details.html"].includes(currentPage) && href === "logging.html") ||
             (["reconciliations-overlay.html", "reconciliations-pending.html", "reconciliations-overlay-requested.html", "reconciliations-requested.html", "reconciliations-overlay-pending.html"].includes(currentPage) && href === "reconciliations.html") ||
-            (["supplier-management-review.html", ...supplierManagementPages].includes(currentPage) && href === "supplier-management.html") ||
+            (["supplier-management-review.html", "supplier-invoice-page.html", "supplier-invoices.html", ...supplierManagementPages].includes(currentPage) && href === "supplier-management.html") ||
             (["bfi-films-set-in-the-uk.html", "bfi-films-set-in-the-uk2.html", "bfi-pdf.html", "bfi-draft-manage.html", "bfi-synopsis.html"].includes(currentPage) && href === "bfi.html") ||
             (["compliance-documents-details.html", "compliance-documents-details-gen.html", "compliance-documents-details-sent.html"].includes(currentPage) && href === "compliance-documents.html")
         ) {
